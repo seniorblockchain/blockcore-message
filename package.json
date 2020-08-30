@@ -1,7 +1,7 @@
 {
-  "name": "blockcore-message",
+  "name": "@blockcore/message",
   "version": "1.0.0",
-  "description": "blockcore-message",
+  "description": "JavaScript component for signing messages with Bitcoin derived keys.",
   "keywords": [
     "bitcoinjs-message",
     "bitcoin",
