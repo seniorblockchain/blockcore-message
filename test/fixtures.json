@@ -1,7 +1,8 @@
 {
   "networks": {
     "bitcoin": "\u0018Bitcoin Signed Message:\n",
-    "dogecoin": "\u0019Dogecoin Signed Message:\n"
+    "dogecoin": "\u0019Dogecoin Signed Message:\n",
+    "empty": ""
   },
   "valid": {
     "signature": [
@@ -100,6 +101,13 @@
         "network": "dogecoin",
         "d": "1",
         "signature": "G6k+dZwJ8oOei3PCSpdj603fDvhlhQ+sqaFNIDvo/bI+Xh6zyIKGzZpyud6YhZ1a5mcrwMVtTWL+VXq/hC5Zj7s="
+      },
+      {
+        "description": "supports empty prefix",
+        "message": "vires is numeris",
+        "network": "empty",
+        "d": "1",
+        "signature": "HC4KpApFwteihue2Jz750L4V6wq5J286JXtAWIvmr1+yDkRRSyT4PA8evK2wEnR03/b4s8NU66dsZPLkVVqhVz4="
       }
     ],
     "verify": [

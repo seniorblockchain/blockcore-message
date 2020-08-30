@@ -1,4 +1,13 @@
-# bitcoinjs-message
+# blockcore-message
+
+Library that helps signing messages in the browser.
+
+## About
+
+This is a fork of [bitcoinjs-message](https://github.com/bitcoinjs/bitcoinjs-message) that adds support for empty message prefix.
+
+This library can be used to easily sign and verify messages that have been signed with Bitcoin-derived keys.
+
 [![NPM Package](https://img.shields.io/npm/v/bitcoinjs-message.svg?style=flat-square)](https://www.npmjs.org/package/bitcoinjs-message)
 [![Build Status](https://img.shields.io/travis/bitcoinjs/bitcoinjs-message.svg?branch=master&style=flat-square)](https://travis-ci.org/bitcoinjs/bitcoinjs-message)
 [![Dependency status](https://img.shields.io/david/bitcoinjs/bitcoinjs-message.svg?style=flat-square)](https://david-dm.org/bitcoinjs/bitcoinjs-message#info=dependencies)
