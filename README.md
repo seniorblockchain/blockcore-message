@@ -73,4 +73,8 @@ console.log(bitcoinMessage.verify(message, address, signature))
 // => true
 ```
 
+## Publish releases
+
+To publish a new release, simply create a new release manually on GitHub. This should trigger the "npmpublish.yml" GitHub Action that will publish to the public npmjs repo.
+
 ## LICENSE [MIT](LICENSE)
