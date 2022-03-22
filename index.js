@@ -47,8 +47,8 @@ function decodeSignature (buffer) {
     segwitType: !(flagByte & 8)
       ? null
       : !(flagByte & 4)
-        ? SEGWIT_TYPES.P2SH_P2WPKH
-        : SEGWIT_TYPES.P2WPKH,
+          ? SEGWIT_TYPES.P2SH_P2WPKH
+          : SEGWIT_TYPES.P2WPKH,
     recovery: flagByte & 3,
     signature: buffer.slice(1)
   }
